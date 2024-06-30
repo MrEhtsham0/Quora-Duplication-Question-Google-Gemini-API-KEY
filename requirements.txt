@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+nltk
+spacy
+bs4
+fuzzywuzzy
+distance
+google-generativeai
