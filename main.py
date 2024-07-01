@@ -67,10 +67,7 @@ async def predict_duplicate(request: Request, q1: str = Form(...), q2: str = For
 
         return templates.TemplateResponse("index.html", {
             "request": request,
-            "title": "Quora Duplication Question Finder",
             "result": result,
-            "q1": q1,
-            "q2": q2,
             "response": response
         })
     except Exception as e:

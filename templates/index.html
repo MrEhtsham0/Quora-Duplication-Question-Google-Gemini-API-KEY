@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>{{ title }}</h1>
+    <h1>Quora Duplication Question Finder </h1>
     <form action="/" method="post">
         <div class="input-group">
             <h3> <label for="q1">Question 1:</label></h3>
@@ -31,7 +31,9 @@
     <div class="response" style="width: 70%; margin:auto">
         <p>
         <h3>Response Using Google Gemini API_KEy</h3>
-        Generated Response: {{ response }}</p>
+        <h3>Generated Response:</h3>
+        <br>
+        {{ response }}</p>
     </div>
     {% endif %}
 </body>
